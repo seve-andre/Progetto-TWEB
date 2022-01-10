@@ -1,0 +1,59 @@
+.option-container,
+.option {
+    margin: 16px 0 !important;
+}
+
+.option {
+    width: 40% !important;
+    height: 67px;
+    background-color: #eff1f3;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .option {
+        width: 100% !important;
+    }
+}
+
+.active-option {
+    background-color: #fff;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.option span {
+    opacity: 0.3;
+    text-align: left;
+}
+
+.active-option span {
+    opacity: 1;
+}
+
+.two-field-container {
+    display: inline-flex;
+    gap: 50px;
+    margin-bottom: 50px !important;
+}
+
+.two-field-container .field input {
+    margin-left: 5% !important;
+}
+
+.two-field-container input {
+    width: 50%;
+}
+
+.two-field-container .input-container {
+    margin-top: 0px !important;
+}
+
+.order-btn {
+    margin-bottom: 30px !important;
+}
+
+legend {
+    margin-bottom: 20px !important;
+}

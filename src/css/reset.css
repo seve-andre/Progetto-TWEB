@@ -1,0 +1,53 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+::selection {
+    color: #fff;
+    background: #ffa600;
+}
+
+.btn,
+a:hover,
+input[type="radio"] {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    color: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input[type="radio"] {
+    appearance: none;
+}
+
+.title {
+    font-weight: 700;
+}
+
+hr {
+    border: 0px solid black;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    accent-color: green;
+}

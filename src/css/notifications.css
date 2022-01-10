@@ -1,0 +1,35 @@
+.deliverer {
+    display: inline-block;
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .deliverer {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.profile-pic {
+    margin: 0 5% !important;
+}
+
+.notification-del {
+    margin-right: 5% !important;
+}
+
+.h-card-time {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notifications-cards {
+    height: 600px;
+}
+
+.empty-page h2 {
+    margin-top: 40px !important;
+}

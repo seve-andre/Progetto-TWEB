@@ -1,0 +1,2 @@
+email: admin@eatup.com
+password: admin_user_eat_up_tweb_2021

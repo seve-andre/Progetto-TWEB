@@ -1,0 +1,45 @@
+.food {
+    height: 50px;
+    width: auto;
+    padding: 0 20px !important;
+    max-width: 120px;
+}
+
+.quantity-text {
+    color: #595959;
+    font-weight: 500;
+}
+
+.adder button {
+    height: 45px;
+}
+
+.adder button:first-of-type {
+    padding-left: 10px !important;
+}
+
+.adder button:last-of-type {
+    padding-right: 10px !important;
+}
+
+.adder form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header button {
+    margin-left: auto !important;
+}
+
+.total-price {
+    margin-top: 20px !important;
+}
+
+.cart-cards {
+    height: 370px;
+}
+
+div.detail:nth-child(4) > p:nth-child(2) > span:nth-child(1) {
+    font-size: 25px;
+}

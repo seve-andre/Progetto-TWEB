@@ -1,0 +1,85 @@
+.skill {
+    margin-top: 50px !important;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 20px !important;
+}
+
+.inner {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successful-order {
+    margin-top: 50px !important;
+}
+
+.number {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+circle {
+    fill: none;
+    stroke: #ffa500;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.order-summary {
+    margin: 44px 10% 0 !important;
+}
+
+.order-summary p:nth-child(-n + 2) {
+    font-weight: 700;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.order-summary p:nth-child(2) {
+    margin-bottom: 50px !important;
+}
+
+.order-summary p:nth-child(3) {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px !important;
+}
+
+.order-summary p:nth-child(4) {
+    font-size: 15px;
+    margin-bottom: 50px !important;
+}

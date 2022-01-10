@@ -1,0 +1,81 @@
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    width: 50%;
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration img {
+    height: 80%;
+    width: 100vh;
+    padding: 20px 10px !important;
+}
+
+.illustration h1,
+.illustration p {
+    height: 5%;
+    margin: 5px 52px !important;
+}
+
+.login-form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form .btn {
+    width: 100%;
+    height: 60px;
+}
+
+.login-container footer {
+    margin-top: 50px !important;
+}
+
+.validation-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px !important;
+}
+
+.validation-requirement {
+    display: flex;
+}
+
+.validation-requirement label {
+    margin-left: 5% !important;
+}
+
+.checkbox-label {
+    font-weight: 400;
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .illustration {
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+        margin-top: 150px !important;
+    }
+
+    .field input {
+        margin-left: 5% !important;
+    }
+}

@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/splash_animation/background_image/waves_background.png");
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.logo-container {
+    margin: 10px 0 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 460px;
+}
+
+.motto-container {
+    align-self: center;
+}
+
+.motto {
+    display: none;
+    margin: 5% !important;
+    padding: 4% !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 22px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.splash-container {
+    margin-top: 2% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video-container video {
+    width: 50%;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("../img/splash_animation/background_image/waves_background_mobile.png");
+    }
+
+    .logo-container img {
+        width: 300px;
+    }
+
+    .splash-container {
+        flex-direction: column;
+    }
+
+    .video-container {
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .motto-container {
+        order: 2;
+        width: 80%;
+    }
+
+    .motto {
+        box-shadow: none;
+    }
+}
